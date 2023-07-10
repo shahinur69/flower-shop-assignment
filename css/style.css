@@ -41,3 +41,69 @@ header{
 .banner-img{
     width: 500px;
 }
+/*   banner section */
+main{
+    padding: 100px 0px;
+}
+.feature{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.feature h2{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.feature p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+}
+.feature-content{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+}
+.box-img{
+    background-color: rgb(229, 84, 115, 0.10);
+    border-radius: 30px;
+    flex-shrink: 0;
+}
+.box-img img{
+    width: 100%;
+    padding-top: 50px;
+    
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    margin: 0px 250px;
+    padding: 30px 0px 100px;
+    font-size: 22px;
+    color: #272727;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 0px;
+}
+.social-icon-text p{
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.social-icon-text img{
+    width: 85px;
+}
