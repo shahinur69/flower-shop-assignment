@@ -7,7 +7,7 @@ body{
 }
 header{
     background-color: rgba(229, 84, 115, 0.10);
-    height: 630px;
+    height: 680px;
 }
 .banner{
     display: flex;
@@ -40,6 +40,7 @@ header{
 }
 .banner-img{
     width: 500px;
+    padding-top: 50px;
 }
 /*   banner section */
 main{
@@ -183,4 +184,37 @@ form input[type="email"]{
     background: #FFF;
     border-radius: 10px;
     border: none;
+}
+/*  social  */
+footer{
+    background: #111010;
+    height: 400px;
+}
+.footer-content{
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 100px 0px;
+}
+.footer-content h4{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.footer-content p{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+span{
+    color: #E55473;
+    font-size: 40px;
+    font-weight: 800;
+}
+.author{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
 }
