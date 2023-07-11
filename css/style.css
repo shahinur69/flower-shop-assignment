@@ -69,13 +69,34 @@ main{
 }
 .box-img{
     background-color: rgb(229, 84, 115, 0.10);
-    border-radius: 30px;
-    flex-shrink: 0;
+    border-top-right-radius: 250px;
+    border-top-left-radius: 250px;
+    width: 400px;
+    height: 550px;
+    padding-top: 50px;
+}
+
+.box-img2{
+    background-color: rgb(193, 223, 223);
+    border-top-right-radius: 250px;
+    border-top-left-radius: 250px;
+    width: 400px;
+    height: 500px;
+    padding-top: 100px;
+}
+
+.box-img3{
+    background-color: rgb(140, 156, 156);
+    border-top-right-radius: 250px;
+    border-top-left-radius: 250px;
+    width: 400px;
+    height: 550px;
+    padding-top: 50px;
 }
 .box-img img{
-    width: 100%;
+    width: 250px;
+    height: 500px;
     padding-top: 50px;
-    
 }
 .title{
     display: flex;
