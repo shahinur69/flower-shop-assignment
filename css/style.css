@@ -107,3 +107,29 @@ main{
 .social-icon-text img{
     width: 85px;
 }
+/*  normal section */
+.hot-deal{
+   height: 550px;
+    background: rgba(229, 84, 115, 0.05);
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.hot-deal-content{
+    max-width: 600px;
+    text-align: center;
+}
+.hot-deal-content h3{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.hot-deal-content p{
+    color: rgba(39, 39, 39, 0.60); 
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
