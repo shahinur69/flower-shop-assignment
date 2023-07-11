@@ -7,7 +7,7 @@ body{
 }
 header{
     background-color: rgba(229, 84, 115, 0.10);
-    height: 100vh;
+    height: 630px;
 }
 .banner{
     display: flex;
